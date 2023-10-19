@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(darkred, darkblue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.central p {
+    font-size: 16px;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.central input {
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    background: lightgray;
+}
+
+.central input:hover {
+    background: lightblue;
+}
+
+.central input:focus {
+    background: lightblue;
+}
+
+.central button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    background: darkred;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.central button:hover {
+    background: darkblue;
+}
+
+/* 
+
+.aprovado {
+    color: blue;
+}
+
+.reprovado {
+    color: red;
+} 
+
+*/
